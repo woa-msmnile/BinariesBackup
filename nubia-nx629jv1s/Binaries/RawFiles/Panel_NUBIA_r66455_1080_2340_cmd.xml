@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>NUBIA_R66455_dsi_1080_2340_amoled_video_panel</PanelName>
+<PanelDescription>NUBIA_R66455_dsi_1080_2340_amoled_video_panel</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>200</HorizontalFrontPorch>
+ <HorizontalBackPorch>80</HorizontalBackPorch>
+ <HorizontalSyncPulse>1</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2340</VerticalActive>
+ <VerticalFrontPorch>64</VerticalFrontPorch>
+ <VerticalBackPorch>12</VerticalBackPorch>
+ <VerticalSyncPulse>1</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x5A0000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2340</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2340</DSITEvSyncInitVal>
+ <DSITEPercentVariance>0x60000</DSITEPercentVariance>
+ <DSICmdModePixelAlignment>1</DSICmdModePixelAlignment>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>4</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>2340</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 B0 04
+39 B0 00
+39 B3 00
+39 CB 00 00
+39 CA 00 00
+39 C9 00 00
+39 C8 00 00
+39 F1 30
+39 CB 00 00
+39 F1 30
+39 CA 00 00
+39 F1 30
+39 C9 00 00
+39 F1 30
+39 C8 00 00
+39 F1 60
+39 CB 00 00
+39 F1 60
+39 CA 00 00
+39 F1 60
+39 C9 00 00
+39 F1 60
+39 C8 00 00
+39 D8 00 05 00 17 00 05 47
+39 B0 80
+39 E6 00
+39 d6 00
+39 b0 00
+39 b6 02 bb 07 00 1a 0a 1b
+39 eb 8B 8B
+39 f7 01
+39 f8 11 00 00 89 10 80 09 24 04 38 00 14 04 38 04 38 02 00 03 1C 00 20 02 05 00 0F 00 0C 02 67 02 2E 18 00 10 F0 03 0C 20 00 06 0B 0B 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 01 02 01 00 09 40 09 BE 19 FC 19 FA 19 F8 1A 38 1A 78 1A B6 2A F6 2B 34 2B 74 3B 74 6B F4 00 00 00 00 00 00
+39 35 00
+05 11 00
+FF A0
+39 51 0f ff
+05 29 00
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ 05 10
+</DSITermSequence>
+<TLMMGPIODefaultLow>07</TLMMGPIODefaultLow>
+<Group id='Backlight Configuration'>
+ <BacklightType>1</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+</Group>

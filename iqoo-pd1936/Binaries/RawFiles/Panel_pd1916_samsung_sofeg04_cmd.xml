@@ -1,0 +1,122 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<PanelDescription>Samsung OLED DSI Command Mode Panel (1080x2340 24bpp)</PanelDescription>
+<Group id=\"Active Timing\">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>88</HorizontalFrontPorch>
+ <HorizontalBackPorch>104</HorizontalBackPorch>
+ <HorizontalSyncPulse>16</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2340</VerticalActive>
+ <VerticalFrontPorch>28</VerticalFrontPorch>
+ <VerticalBackPorch>87</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIDynamicRefreshRates>0x3C0000 0x3B8000</DSIDynamicRefreshRates>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSIClockHSForceRequest>0</DSIClockHSForceRequest>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2316</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2316</DSITEvSyncInitVal>
+ <DSIEscapeClockFrequency>12800000</DSIEscapeClockFrequency>
+ <DSIControllerMapping>
+  00 
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ 39 9F A5 A5
+ 39 11 00
+ FF 05
+ 39 9F 5A 5A
+ 39 F0 5A 5A
+ 39 B0 6E
+ 39 B9 81
+ 39 B0 09
+ 39 EF 31
+ 39 F0 A5 A5
+ FF 10
+ 39 F0 5A 5A
+ 39 B0 07
+ 39 CD F2
+ 39 F0 A5 A5
+ 39 9F A5 A5
+ 39 35 00
+ 39 9F 5A 5A
+ 39 FC 5A 5A
+ 39 B0 01
+ 39 E3 88
+ 39 B0 07
+ 39 ED 67
+ 39 FC A5 A5
+ 39 F0 5A 5A
+ 39 B0 07
+ 39 B7 01
+ 39 51 00 00
+ 39 F0 A5 A5
+ 39 53 20
+ FF 65
+ 39 55 00
+ 39 9F A5 A5
+ 39 29 00
+ 39 9F 5A 5A
+ 39 F0 5A 5A
+ 39 B0 DE
+ 39 B9 48
+ 39 81 90
+ 39 B1 00 00 FF 02 00 11 FF 01 03 0D FF 1D FF E4 FF 0F F1 FF F8 01 FF FF FF
+ 39 B6 00 02
+ 39 B0 1C
+ 39 B3 00
+ 39 B0 23
+ 39 B3 91
+ 39 B0 21
+ 39 B3 F8
+ 39 83 80
+ 39 B3 00 C0
+ 39 F0 A5 A5
+ </DSIInitSequence> 
+ <DSITermSequence> 
+ 39 9F A5 A5 
+ 39 28 00 
+ FF 0B 
+ 39 10 00 
+ 39 9F 5A 5A 
+ 39 F0 5A 5A
+ 39 B0 05
+ 39 F4 01
+ 39 F0 A5 A5
+ FF 97
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>0</BacklightPmicControlType>
+ <BacklightDefault>28</BacklightDefault>
+ <BacklightBitWidth>10</BacklightBitWidth>
+ <DisplayResetInfo>0 10 1000 10000 0</DisplayResetInfo>
+ <DisplayResetGpio>6</DisplayResetGpio>
+ <DisplayResetInfo>0 20 1000 10000 0</DisplayResetInfo>
+/Group>
