@@ -35,6 +35,7 @@
 | OnePlus 7T Pro 5G  | oneplus-hotdogg        |
 | OPPO Reno 10X      | oppo-op46c3            |
 | OPPO Reno ACE      | oppo-pclm10            |
+| Qcom QRD 855       | qcom-msmnile           |
 | Realme X3          | realme-rmx2086         |
 | Samsung Galaxy S10 | samsung-beyond1qlte    |
 | Smartisan Pro 3    | smartisan-aries        |
@@ -43,5 +44,5 @@
 | Xiaomi K20 Pro     | xiaomi-raphael         |
 | Xiaomi Mix3 5G     | xiaomi-andromeda       |
 | Xiaomi Mix Alpha u2| xiaomi-avenger         |
-| Xiaomi Pad 5       | xiaomi-nabu            |
 | Xiaomi Poco X3 Pro | xiaomi-vayu            |
+| Xiaomi Pad 5       | xiaomi-nabu            |
