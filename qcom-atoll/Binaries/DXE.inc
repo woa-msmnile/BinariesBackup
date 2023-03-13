@@ -8,16 +8,17 @@ FILE FREEFORM = DDE58710-41CD-4306-DBFB-3FA90BB1D2DD {
 INF MdeModulePkg/Core/Dxe/DxeMain.inf
 INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf
 INF MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
-INF QcomPkg/Drivers/TzDxe/ScmDxe.inf
-INF QcomPkg/Drivers/SecurityDxe/SecurityDxe.inf
-INF QcomPkg/Drivers/MorPpiDxe/MorPpiDxe.inf
-INF QcomPkg/Drivers/TzDxe/TzDxe.inf
-INF QcomPkg/Drivers/MeasureBootDxe/MeasureBootDxe.inf
+INF MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf
+INF QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
+INF QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
+INF QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf
+INF QcomPkg/Drivers/TzDxe/ScmDxeLA.inf
+INF QcomPkg/Drivers/TzDxe/TzDxeLA.inf
 INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
-INF QcomPkg/Drivers/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
-INF MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRouterRuntimeDxe.inf
-INF MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf
-INF QcomPkg/Drivers/VariableDxe/WP/VariableDxe.inf
+INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
+INF MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.inf
+INF MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.inf
+INF QcomPkg/Drivers/VariableDxe/VariableDxe.inf
 INF QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
 INF QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
 INF QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
@@ -30,13 +31,8 @@ INF MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
 INF MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
 INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 INF QcomPkg/Drivers/FontDxe/FontDxe.inf
-INF QcomPkg/Drivers/SmbiosDxe/SmbiosDxe.inf
 INF QcomPkg/Drivers/EnvDxe/EnvDxe.inf
-INF QcomPkg/Drivers/SmBiosTableDxe/SmBiosTableDxe.inf
-INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
-INF QcomPkg/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf
 INF QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
-INF QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
 INF ArmPkg/Drivers/ArmGic/ArmGicDxe.inf
 INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
 INF QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
@@ -58,74 +54,37 @@ INF QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
 INF QcomPkg/Drivers/HWIODxe/HWIODxe.inf
 INF QcomPkg/Drivers/GpiDxe/GpiDxe.inf
 INF QcomPkg/Drivers/I2CDxe/I2CDxe.inf
-INF QcomPkg/Drivers/I2CKeyboard/I2CKeyboard.inf
-INF QcomPkg/Drivers/SPIDxe/SPIDxe.inf
 INF QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
-INF QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf
 INF QcomPkg/Drivers/SdccDxe/SdccDxe.inf
 INF QcomPkg/Drivers/UFSDxe/UFSDxe.inf
-INF QcomPkg/Drivers/RawFileSystemDxe/RawFileSystemDxe.inf
-INF MdeModulePkg/Universal/Acpi/FirmwarePerformanceDataTableDxe/FirmwarePerformanceDxe.inf
 INF QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
+INF QcomPkg/Drivers/MinidumpTADxe/MinidumpTADxe.inf
 INF QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
 INF QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
 INF QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
-INF QcomPkg/Drivers/PmicDxe/PmicDxeWp.inf
-INF QcomPkg/Drivers/ChargerExDxe/NullLib/ChargerExDxeNull.inf
+INF QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
+INF QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
+INF QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLA.inf
 INF QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
 INF QcomPkg/Drivers/AdcDxe/AdcDxe.inf
 INF QcomPkg/Drivers/TsensDxe/TsensDxe.inf
 INF QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
 INF QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
-INF MdeModulePkg/Universal/Network/SnpDxe/SnpDxe.inf
-INF MdeModulePkg/Universal/Network/DpcDxe/DpcDxe.inf
-INF MdeModulePkg/Universal/Network/ArpDxe/ArpDxe.inf
-INF MdeModulePkg/Universal/Network/Dhcp4Dxe/Dhcp4Dxe.inf
-INF MdeModulePkg/Universal/Network/Ip4Dxe/Ip4Dxe.inf
-INF MdeModulePkg/Universal/Network/MnpDxe/MnpDxe.inf
-INF MdeModulePkg/Universal/Network/VlanConfigDxe/VlanConfigDxe.inf
-INF MdeModulePkg/Universal/Network/Mtftp4Dxe/Mtftp4Dxe.inf
-INF NetworkPkg/TcpDxe/TcpDxe.inf
-INF MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Dxe.inf
-INF NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
 INF QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
-INF QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
-INF QcomPkg/Drivers/XhciDxe/XhciDxe.inf
-INF QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.inf
-INF QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.inf
-INF QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf
 INF QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
 INF QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
 INF QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
-INF QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf
-INF QcomPkg/Drivers/UsbfnChgDxe/UsbfnChgDxe.inf
-INF OptionRomPkg/Bus/Usb/UsbNetworking/Ax88772b/Ax88772b.inf
-INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-INF MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
 INF QcomPkg/Drivers/HashDxe/HashDxe.inf
 INF QcomPkg/Drivers/CipherDxe/CipherDxe.inf
 INF QcomPkg/Drivers/RNGDxe/RngDxe.inf
-INF QcomPkg/Drivers/TrEEDxe/TpmDxe.inf
-INF QcomPkg/Drivers/TrEEDxe/TrEEDxe.inf
 INF QcomPkg/Drivers/QcomBds/QcomBds.inf
-INF QcomPkg/Drivers/SerialDxe/SerialDxe.inf
-INF QcomPkg/Drivers/AdapterInformationDxe/AdapterInformationDxe.inf
 INF QcomPkg/Drivers/PILDxe/PILDxe.inf
-INF QcomPkg/Drivers/DppDxe/DppDxe.inf
-INF FmpDevicePkg/FmpDxe/78EF0A56-1CF0-4535-B5DA-F6FD2F405A25.inf
-INF MdeModulePkg/Universal/EsrtDxe/EsrtDxe.inf
-INF QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxe.inf
+INF QcomPkg/Application/QcomChargerApp/QcomChargerApp.inf
+INF QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
 
 FILE FREEFORM = A91D838E-A5FA-4138-825D-455E2303079E {
     SECTION UI = "BDS_Menu.cfg"
     SECTION RAW = RawFiles/BDS_Menu.cfg
-}
-
-INF QcomPkg/QcomToolsPkg/WinDsdtUpdateControllerUI/WinDsdtUpdateControllerUI.inf
-
-FILE FREEFORM = 96195F52-9EAA-436D-9A86-0FA02ACB39B0 {
-    SECTION UI = "DriverList.cfg"
-    SECTION RAW = RawFiles/DriverList.cfg
 }
 
 
@@ -147,21 +106,63 @@ FILE FREEFORM = 8CAE2C55-FC5A-410B-812B-8CA22F557623 {
 }
 
 
-FILE FREEFORM = 808D2786-42C3-4D03-A953-EAEEDBC85E66 {
-    SECTION UI = "Panel_cls_proto_0_sn65dsi86_boe_fhd.xml"
-    SECTION RAW = RawFiles/Panel_cls_proto_0_sn65dsi86_boe_fhd.xml
+FILE FREEFORM = CE09CA21-74A1-41F1-A2A2-6C3114EB5AD7 {
+    SECTION UI = "Panel_nt36672c_boe_fhd_plus_video.xml"
+    SECTION RAW = RawFiles/Panel_nt36672c_boe_fhd_plus_video.xml
 }
 
 
-FILE FREEFORM = 314F53E7-7DAF-4FFC-B223-2C1137F5EE95 {
-    SECTION UI = "Panel_cls_sn65dsi86_boe_fhd.xml"
-    SECTION RAW = RawFiles/Panel_cls_sn65dsi86_boe_fhd.xml
+FILE FREEFORM = 3E5584ED-05D4-4267-9048-0D47F76F4248 {
+    SECTION UI = "battery_symbol_Soc10.bmp"
+    SECTION RAW = RawFiles/battery_symbol_Soc10.bmp
 }
 
 
-FILE FREEFORM = 67651375-ED9F-4470-9710-009DB700A58D {
-    SECTION UI = "7180_cls_external_dp_usb0.xml"
-    SECTION RAW = RawFiles/7180_cls_external_dp_usb0.xml
+FILE FREEFORM = 4753E815-DDD8-402D-BF69-9B8C4EB7573E {
+    SECTION UI = "battery_symbol_NoBattery.bmp"
+    SECTION RAW = RawFiles/battery_symbol_NoBattery.bmp
+}
+
+
+FILE FREEFORM = 03DED53E-BECD-428F-9F79-5ABA64C58445 {
+    SECTION UI = "battery_symbol_Nocharger.bmp"
+    SECTION RAW = RawFiles/battery_symbol_Nocharger.bmp
+}
+
+
+FILE FREEFORM = 8B86CD38-C772-4FCF-85AA-345B2B3C1AB4 {
+    SECTION UI = "battery_symbol_LowBatteryCharging.bmp"
+    SECTION RAW = RawFiles/battery_symbol_LowBatteryCharging.bmp
+}
+
+
+FILE FREEFORM = 3FD97907-93F1-4349-AF3C-3B68B0A5E626 {
+    SECTION UI = "battery_symbol_LowBattery.bmp"
+    SECTION RAW = RawFiles/battery_symbol_LowBattery.bmp
+}
+
+
+FILE FREEFORM = E2EA5A4F-98BD-4203-AB49-399505DDFB7D {
+    SECTION UI = "tsens_thermal_symbol.bmp"
+    SECTION RAW = RawFiles/tsens_thermal_symbol.bmp
+}
+
+
+FILE FREEFORM = C72FB1A9-5527-4E13-BAC4-F671D0330145 {
+    SECTION UI = "tsens_thermal_err_symbol.bmp"
+    SECTION RAW = RawFiles/tsens_thermal_err_symbol.bmp
+}
+
+
+FILE FREEFORM = B0F8D1BE-5353-4812-B1F6-07E7768204CC {
+    SECTION UI = "battery_symbol_DebugBoot.bmp"
+    SECTION RAW = RawFiles/battery_symbol_DebugBoot.bmp
+}
+
+
+FILE FREEFORM = F9E8F683-E065-4E09-B4F9-0230D7CECD08 {
+    SECTION UI = "battery_symbol_DebugStay.bmp"
+    SECTION RAW = RawFiles/battery_symbol_DebugStay.bmp
 }
 
 
@@ -182,6 +183,3 @@ FILE FREEFORM = 45FE4B7C-150C-45DA-A021-4BEB2048EC6F {
     SECTION RAW = RawFiles/QcomChargerCfg.cfg
 }
 
-INF QcomPkg/Application/FastbootApp/FastbootApp.inf
-INF EmbeddedPkg/Ebl/Ebl.inf
-INF QcomPkg/QcomToolsPkg/UsbfnMsdApp/UsbfnMsdApp.inf

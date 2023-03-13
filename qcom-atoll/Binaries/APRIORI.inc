@@ -2,14 +2,16 @@ APRIORI DXE {
     INF MdeModulePkg/Core/Dxe/DxeMain.inf
     INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf
     INF MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
-    INF QcomPkg/Drivers/TzDxe/ScmDxe.inf
-    INF QcomPkg/Drivers/SecurityDxe/SecurityDxe.inf
-    INF QcomPkg/Drivers/TzDxe/TzDxe.inf
+    INF QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
+    INF QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
+    INF QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf
+    INF QcomPkg/Drivers/TzDxe/ScmDxeLA.inf
+    INF QcomPkg/Drivers/TzDxe/TzDxeLA.inf
     INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
-    INF QcomPkg/Drivers/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
-    INF MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRouterRuntimeDxe.inf
-    INF MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf
-    INF QcomPkg/Drivers/VariableDxe/WP/VariableDxe.inf
+    INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
+    INF MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.inf
+    INF MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.inf
+    INF QcomPkg/Drivers/VariableDxe/VariableDxe.inf
     INF QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
     INF QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
     INF QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
@@ -21,11 +23,8 @@ APRIORI DXE {
     INF MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
     INF MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
     INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
-    INF QcomPkg/Drivers/SmbiosDxe/SmbiosDxe.inf
+    INF QcomPkg/Drivers/FontDxe/FontDxe.inf
     INF QcomPkg/Drivers/EnvDxe/EnvDxe.inf
-    INF QcomPkg/Drivers/SmBiosTableDxe/SmBiosTableDxe.inf
-    INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
-    INF QcomPkg/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf
     INF QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
     INF ArmPkg/Drivers/ArmGic/ArmGicDxe.inf
     INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
@@ -35,7 +34,6 @@ APRIORI DXE {
     INF QcomPkg/Drivers/NpaDxe/NpaDxe.inf
     INF QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf
     INF QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf
-    INF QcomPkg/Drivers/CPRDxe/CPRDxe.inf
     INF QcomPkg/Drivers/PdcDxe/PdcDxe.inf
     INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
     INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
@@ -48,43 +46,26 @@ APRIORI DXE {
     INF QcomPkg/Drivers/HWIODxe/HWIODxe.inf
     INF QcomPkg/Drivers/GpiDxe/GpiDxe.inf
     INF QcomPkg/Drivers/I2CDxe/I2CDxe.inf
-    INF QcomPkg/Drivers/SPIDxe/SPIDxe.inf
     INF QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
-    INF QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf
     INF QcomPkg/Drivers/SdccDxe/SdccDxe.inf
     INF QcomPkg/Drivers/UFSDxe/UFSDxe.inf
-    INF QcomPkg/Drivers/RawFileSystemDxe/RawFileSystemDxe.inf
     INF QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
     INF QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
     INF QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
     INF QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
-    INF QcomPkg/Drivers/PmicDxe/PmicDxeWp.inf
-    INF QcomPkg/Drivers/ChargerExDxe/NullLib/ChargerExDxeNull.inf
+    INF QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
+    INF QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
+    INF QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLA.inf
     INF QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
     INF QcomPkg/Drivers/AdcDxe/AdcDxe.inf
     INF QcomPkg/Drivers/TsensDxe/TsensDxe.inf
     INF QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
     INF QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
     INF QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
-    INF QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
-    INF QcomPkg/Drivers/XhciDxe/XhciDxe.inf
-    INF QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.inf
-    INF QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.inf
-    INF QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf
-    INF QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
     INF QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
-    INF QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf
-    INF QcomPkg/Drivers/UsbfnChgDxe/UsbfnChgDxe.inf
-    INF MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
     INF QcomPkg/Drivers/HashDxe/HashDxe.inf
     INF QcomPkg/Drivers/CipherDxe/CipherDxe.inf
     INF QcomPkg/Drivers/RNGDxe/RngDxe.inf
-    INF QcomPkg/Drivers/TrEEDxe/TpmDxe.inf
-    INF QcomPkg/Drivers/TrEEDxe/TrEEDxe.inf
     INF QcomPkg/Drivers/QcomBds/QcomBds.inf
-    INF QcomPkg/Drivers/SerialDxe/SerialDxe.inf
-    INF QcomPkg/Drivers/AdapterInformationDxe/AdapterInformationDxe.inf
-    INF QcomPkg/Drivers/PILDxe/PILDxe.inf
-    INF QcomPkg/Drivers/DppDxe/DppDxe.inf
-    INF QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxe.inf
+    INF QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
 }
