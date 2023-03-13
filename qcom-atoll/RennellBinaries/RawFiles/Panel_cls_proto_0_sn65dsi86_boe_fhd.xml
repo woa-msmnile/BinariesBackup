@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>NV140FHM-N64</PanelName>
+<PanelDescription>eDP Panel(1920x1080) via SN65DSI86 DSI2eDP bridge </PanelDescription>
+<Group id="Display Interface">
+  <InterfaceType>8</InterfaceType>
+  <InterfaceColorFormat>3</InterfaceColorFormat>
+  <BridgeId>1</BridgeId>
+</Group>
+<Group id="DSI Interface">
+  <DSIChannelId>1</DSIChannelId>
+  <DSIVirtualId>0</DSIVirtualId>
+  <DSIColorFormat>36</DSIColorFormat>
+  <DSITrafficMode>1</DSITrafficMode>
+  <DSILanes>4</DSILanes>
+  <DSILP11AtInit>True</DSILP11AtInit>
+  <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+  <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+  <DSIInitMasterTime>30</DSIInitMasterTime>  
+  <DSIControllerMapping>
+      00
+  </DSIControllerMapping>
+</Group>
+<Group id="I2C Interface">
+  <DSII2CSlaveAddressList>0x2C 0x50</DSII2CSlaveAddressList>
+  <DSII2CI2CNumOfSlaves>2</DSII2CI2CNumOfSlaves>
+  <DSII2CGSBIPort>10</DSII2CGSBIPort>
+  <DSII2COffsetLength>1</DSII2COffsetLength>
+</Group>
+<DSIInitSequence>
+  23 0A 02
+  23 FF 07
+  23 16 01
+  23 FF 00
+  23 10 20
+  23 5A 04
+  23 5C 01
+  23 94 80
+  23 93 24
+  23 96 0A
+  23 5E 08
+  23 5F 80
+  23 60 A1
+  23 A0 01
+  23 A1 FF
+  23 A2 FF
+  23 A3 00
+  23 A4 00
+  23 A5 02
+</DSIInitSequence>
+<DSITermSequence>
+  23 5A 05
+  23 96 00
+  23 93 00
+  23 0D 00
+</DSITermSequence>
+<Group id="Backlight Configuration">
+  <BacklightType>2</BacklightType>
+</Group>
+<Group id='DyanmicEDID Configuration'>
+  <DynamicEDIDEnabled>True</DynamicEDIDEnabled>
+  <DynamicEDIDPTM>0</DynamicEDIDPTM>
+  <DynamicEDIDStartAddress>0</DynamicEDIDStartAddress>
+</Group>
