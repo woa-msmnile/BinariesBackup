@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>NE140FHM-N44</PanelName>
+<PanelDescription>eDP Panel(1366x768) via SN65DSI86 DSI2eDP bridge </PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive units="Dot Clocks">1366</HorizontalActive>
+ <HorizontalFrontPorch units="Dot Clocks">40</HorizontalFrontPorch>
+ <HorizontalBackPorch units="Dot Clocks">64</HorizontalBackPorch>
+ <HorizontalSyncPulse units="Dot Clocks">32</HorizontalSyncPulse>
+ <HorizontalSyncSkew units="Dot Clocks">0</HorizontalSyncSkew>
+ <HorizontalLeftBorder units="Dot Clocks">0</HorizontalLeftBorder>
+ <HorizontalRightBorder units="Dot Clocks">0</HorizontalRightBorder>
+ <VerticalActive units="Dot Clocks">768</VerticalActive>
+ <VerticalFrontPorch units="Lines">5</VerticalFrontPorch>
+ <VerticalBackPorch units="Lines">4</VerticalBackPorch>
+ <VerticalSyncPulse units="Lines">5</VerticalSyncPulse>
+ <VerticalSyncSkew units="Lines">0</VerticalSyncSkew>
+ <VerticalTopBorder units="Lines">0</VerticalTopBorder>
+ <VerticalBottomBorder units="Lines">0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+  <InterfaceType>8</InterfaceType>
+  <InterfaceColorFormat>3</InterfaceColorFormat>
+  <BridgeId>1</BridgeId>
+</Group>
+<Group id="DSI Interface">
+  <DSIChannelId>1</DSIChannelId>
+  <DSIVirtualId>0</DSIVirtualId>
+  <DSIColorFormat>36</DSIColorFormat>
+  <DSITrafficMode>1</DSITrafficMode>
+  <DSILanes>4</DSILanes>
+  <DSILP11AtInit>True</DSILP11AtInit>
+  <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+  <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+  <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+  <DSIInitMasterTime>30</DSIInitMasterTime>  
+  <DSIControllerMapping>
+      00
+  </DSIControllerMapping>
+</Group>
+<Group id="I2C Interface">
+  <DSII2CSlaveAddressList>0x2C 0x50</DSII2CSlaveAddressList>
+  <DSII2CI2CNumOfSlaves>2</DSII2CI2CNumOfSlaves>
+  <DSII2CGSBIPort>11</DSII2CGSBIPort>
+  <DSII2COffsetLength>1</DSII2COffsetLength>
+</Group>
+<DSIInitSequence>
+  23 0A 02
+  23 FF 07
+  23 16 01
+  23 FF 00
+  23 10 26
+  23 12 2B
+  23 13 2B
+  23 5A 05
+  23 5C 01
+  23 94 80
+  23 0D 01
+  FF 0A
+  23 95 00
+  FF 0A
+  23 93 10
+  23 96 0A
+  FF 14
+  23 20 56
+  23 21 05
+  23 24 00
+  23 25 03
+  23 2C 20
+  23 2D 00
+  23 30 05
+  23 31 00
+  23 34 40
+  23 36 04
+  23 38 28
+  23 3A 05
+  23 5B 00
+  23 3C 00
+  23 5A 0C
+  23 5E 08
+  23 5F 80
+  23 60 A1
+  23 A0 01
+  23 A1 FF
+  23 A2 FF
+  23 A3 00
+  23 A4 00
+  23 A5 02
+</DSIInitSequence>
+<DSITermSequence>
+  23 5A 05
+  23 96 00
+  23 93 00
+  23 0D 00
+</DSITermSequence>
+<Group id="Backlight Configuration">
+  <BacklightType>2</BacklightType>
+</Group>
+<Group id='DyanmicEDID Configuration'>
+<DynamicEDIDEnabled>False</DynamicEDIDEnabled>
+<DynamicEDIDPTM>0</DynamicEDIDPTM>
+<DynamicEDIDStartAddress>0</DynamicEDIDStartAddress>
+<DynamicEDIDHPDWaitTime>0xC8</DynamicEDIDHPDWaitTime>
+</Group>
