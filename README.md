@@ -37,6 +37,7 @@
 | OPPO Reno 10X       | oppo-op46c3             |
 | OPPO Reno ACE       | oppo-pclm10             |
 | Qcom QRD 855        | qcom-msmnile            |
+| Realme X2 Pro       | realme-rmx1931          |
 | Realme X3           | realme-rmx2086          |
 | Samsung Galaxy S10  | samsung-beyond1qlte     |
 | Smartisan Pro 3     | smartisan-aries         |
@@ -53,6 +54,7 @@
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI QRD720          | qcom-atoll              |
+| Xiaomi Redmi Note 9S| xiaomi-miatoll          |
 
 ### SM8350
 Coming Soon...
