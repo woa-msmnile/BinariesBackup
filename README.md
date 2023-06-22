@@ -15,6 +15,11 @@
   - We won't provide IDA files anymore.
 
 ## List
+### SM6125
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| Xiaomi Note 8       | xiaomi-ginkgo           |
+
 ### SM8150
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
