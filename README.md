@@ -9,6 +9,11 @@
   - You may want panel cfg and fill it into dsdt.
   ...
 
+## Notice
+  - Some binaries(e.g. ButtonDxe.efi/UsbConfigDxe.efi) extracted here were patched by us.
+  - If you want the original, you can extracted these binaries from the xbl images we provided.
+  - We won't provide IDA files anymore.
+
 ## List
 ### SM8150
 |Device Name          | CodeName                |
@@ -50,17 +55,23 @@
 | Xiaomi Pad 5        | xiaomi-nabu             |
 | Xiaomi Poco X3 Pro  | xiaomi-vayu             |
 
+
 ### SM7125
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI QRD720          | qcom-atoll              |
 | Xiaomi Redmi Note 9S| xiaomi-miatoll          |
 
+
 ### SM8350
 Coming Soon...
 
+
 ### SM7325
-Coming Soon...
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| QTI qrd778          | qcom-kodiak             |
+
 
 ### SM8550
 |Device Name          | CodeName                |

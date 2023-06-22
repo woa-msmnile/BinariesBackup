@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>GenericEDP</PanelName>
+<PanelDescription>Generic eDP Panel</PanelDescription>
+<Group id="Display Interface">
+ <InterfaceType>18</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="Active Timing">
+ <HorizontalActive>0</HorizontalActive>
+ <HorizontalFrontPorch>0</HorizontalFrontPorch>
+ <HorizontalBackPorch>0</HorizontalBackPorch>
+ <HorizontalSyncPulse>0</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>0</VerticalActive>
+ <VerticalFrontPorch>0</VerticalFrontPorch>
+ <VerticalBackPorch>0</VerticalBackPorch>
+ <VerticalSyncPulse>0</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolarity>False</InvertVsyncPolarity>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="eDP Interface">
+  <EDPOverrideEDID>00 FF FF FF FF FF FF 00 06 AF 2D 58 00 00 00 00 00 1C 01 04 A5 1D 11 78 02 EE 95 A3 54 4C 99 26 0F 50 54 00 00 00 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 B4 37 80 A0 70 38 3E 40 3A 2A 35 00 25 A5 10 00 00 18 B4 37 80 A0 70 38 5C 41 3A 2A 35 00 25 A5 10 00 00 18 00 00 00 FE 00 41 55 4F 0A 20 20 20 20 20 20 20 20 20 00 00 00 FE 00 42 31 33 33 48 41 4E 30 35 2E 38 20 0A 00 CF</EDPOverrideEDID>
+  <EDPOverrideDPCDCaps>12 0A C2 41 00 00 01 C0 02 00 00 00 00 0B 00 00 A4 1F 30 2A 76 2F BC 34 48 3F D4 49 60 54 78 69</EDPOverrideDPCDCaps>
+  <EDPOverrideDPCDStatus>01 00 77 77 01 00 44 44</EDPOverrideDPCDStatus>
+  <EDPOverrideMode>2</EDPOverrideMode>
+</Group>
