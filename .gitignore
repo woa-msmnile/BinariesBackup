@@ -1,0 +1,8 @@
+# We won't provide IDA packed file any more since 2023/06/22.
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
