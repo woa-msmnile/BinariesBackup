@@ -20,7 +20,7 @@
 |---------------------|-------------------------|
 | Xiaomi Note 8       | xiaomi-ginkgo           |
 
-### SM8150
+### SM8150 Hana/msmnile
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | ASUS ROG2           | asus-I001DC             |
@@ -61,24 +61,33 @@
 | Xiaomi Poco X3 Pro  | xiaomi-vayu             |
 
 
-### SM7125
+### SM7125 Rennell/atoll
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI QRD720          | qcom-atoll              |
 | Xiaomi Redmi Note 9S| xiaomi-miatoll          |
 
 
-### SM8350
+### SM8350 Lahaina/lahaina
 Coming Soon...
 
 
-### SM7325
+### SM7325 Kodiak/yupik
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI qrd778          | qcom-kodiak             |
 
+### SM8450 Waipio/waipio
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| QTI qrd sm8450      | qcom-waipio             |
 
-### SM8550
+### SM8475 Palima/waipio
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| Xiaomi Pad6 Pro     | xiaomi-liuqin           |
+
+### SM8550 Kailua/kalama
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | Nubia RedMagic 8Pro | nubia-nx729j            |
