@@ -15,11 +15,13 @@
   - We won't provide IDA files anymore.
 
 ## List
+___
 ### SM6125
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | Xiaomi Note 8       | xiaomi-ginkgo           |
 
+___
 ### SM8150 Hana/msmnile
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
@@ -60,36 +62,41 @@
 | Xiaomi Pad 5        | xiaomi-nabu             |
 | Xiaomi Poco X3 Pro  | xiaomi-vayu             |
 
-
+___
 ### SM7125 Rennell/atoll
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI QRD720          | qcom-atoll              |
 | Xiaomi Redmi Note 9S| xiaomi-miatoll          |
 
-
+___
 ### SM8350 Lahaina/lahaina
 Coming Soon...
 
-
+___
 ### SM7325 Kodiak/yupik
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI qrd778          | qcom-kodiak             |
 
+___
 ### SM8450 Waipio/waipio
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI qrd sm8450      | qcom-waipio             |
 
+___
 ### SM8475 Palima/waipio
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | Xiaomi Pad6 Pro     | xiaomi-liuqin           |
 
+___
 ### SM8550 Kailua/kalama
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | Nubia RedMagic 8Pro | nubia-nx729j            |
 | Xiaomi 13           | xiaomi-fuxi             |
 | Xiaomi 13 Pro       | xiaomi-nuwa             |
+
+___
