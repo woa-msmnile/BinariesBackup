@@ -22,6 +22,12 @@ ___
 | Xiaomi Note 8       | xiaomi-ginkgo           |
 
 ___
+### SDM845 Hoya
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| QTI Reference Desgin| qcom-hoya               |
+
+___
 ### SM8150 Hana/msmnile
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
@@ -95,6 +101,7 @@ ___
 ### SM8550 Kailua/kalama
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
+| QTI qrd sm8550      | qcom-kailua             |
 | Nubia RedMagic 8Pro | nubia-nx729j            |
 | Xiaomi 13           | xiaomi-fuxi             |
 | Xiaomi 13 Pro       | xiaomi-nuwa             |
