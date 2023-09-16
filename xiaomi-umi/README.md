@@ -1,5 +1,5 @@
-## What's the meaning of `_4` or `_5` ?
+## What's the meaning of _5 or _4 here?
 
-> [!WARN]
-> _5.elf is xbl for device with LPDDR5 and _4 is xbl for device with LPDDR4.
+> [!NOTE]
+> _5 means ddr5 and _4 means ddr4.
 
