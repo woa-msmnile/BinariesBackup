@@ -2,3 +2,4 @@
 
 > [!WARN]
 > `xbl_5.elf` is xbl for device with LPDDR5, and _4 is xbl for device with LPDDR4.
+
