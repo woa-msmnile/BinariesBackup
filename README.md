@@ -26,6 +26,7 @@ ___
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI Reference Desgin| qcom-hoya               |
+| Xiaomi Mix2s        | xiaomi-polaris          |
 
 ___
 ### SM8150 Hana/msmnile
@@ -50,6 +51,7 @@ ___
 | Nubia Mini 5G       | nubia-tp1803            |
 | OnePlus 7           | oneplus-guacamoleb      |
 | OnePlus 7 Pro       | oneplus-guacamole       |
+| OnePlus 7T          | oneplus-hotdogb         |
 | OnePlus 7T Pro      | oneplus-hotdog          |
 | OnePlus 7T Pro 5G   | oneplus-hotdogg         |
 | OPPO Reno 10X       | oppo-op46c3             |
@@ -85,6 +87,12 @@ ___
 |---------------------|-------------------------|
 | QTI qrd778          | qcom-kodiak             |
 
+___
+### SM8250 Kodiak/yupik
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| Xiaomi Pad 5 Pro    | xiaomi-elish            |
+| Xiaomi Pad 6        | xiaomi-pipa             |
 ___
 ### SM8450 Waipio/waipio
 |Device Name          | CodeName                |
