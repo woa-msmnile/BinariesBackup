@@ -113,5 +113,5 @@ ___
 | Nubia RedMagic 8Pro | nubia-nx729j            |
 | Xiaomi 13           | xiaomi-fuxi             |
 | Xiaomi 13 Pro       | xiaomi-nuwa             |
-
+| Xiaomi Pad6S Pro    | xiaomi-sheng            |
 ___
