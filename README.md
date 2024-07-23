@@ -79,7 +79,9 @@ ___
 
 ___
 ### SM8350 Lahaina/lahaina
-Coming Soon...
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| Redmi K40 Pro	      | xiaomi-haydn            |
 
 ___
 ### SM7325 Kodiak/yupik
