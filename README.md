@@ -113,6 +113,7 @@ ___
 |---------------------|-------------------------|
 | QTI qrd sm8550      | qcom-kailua             |
 | Nubia RedMagic 8Pro | nubia-nx729j            |
+| Oneplus 11 5G       | oneplus-salami          |
 | Xiaomi 13           | xiaomi-fuxi             |
 | Xiaomi 13 Pro       | xiaomi-nuwa             |
 | Xiaomi Pad6S Pro    | xiaomi-sheng            |
