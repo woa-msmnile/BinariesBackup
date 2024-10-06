@@ -117,4 +117,5 @@ ___
 | Xiaomi 13           | xiaomi-fuxi             |
 | Xiaomi 13 Pro       | xiaomi-nuwa             |
 | Xiaomi Pad6S Pro    | xiaomi-sheng            |
+| Xiaomi K60 Pro      | xiaomi-socrates         |
 ___
